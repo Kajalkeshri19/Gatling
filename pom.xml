@@ -26,13 +26,7 @@
       <artifactId>gatling-app</artifactId>
       <version>${gatling.version}</version>
     </dependency>
-    <dependency>
-      <groupId>io.gatling</groupId>
-      <artifactId>gatling-recorder</artifactId>
-      <version>${gatling.version}</version>
-    </dependency>
   </dependencies>
-
   <build>
     <testSourceDirectory>src/test/scala</testSourceDirectory>
     <plugins>
